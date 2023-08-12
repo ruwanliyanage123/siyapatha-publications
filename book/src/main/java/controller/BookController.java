@@ -16,6 +16,7 @@ public class BookController {
 
     @Path("/book/{isbn}")
     public Response getBookByISBN(@PathParam("isbn") String isbnNumber){
+        System.out.println(isbnNumber);
         return Response.ok(isbnNumber, MediaType.APPLICATION_JSON).build();
     }
 }
