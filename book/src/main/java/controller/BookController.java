@@ -1,5 +1,7 @@
 package controller;
 
+import service.BookService;
+
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
@@ -8,6 +10,8 @@ import javax.ws.rs.core.Response;
 
 @Path("/book")
 public class BookController {
+    private BookService service = new BookService();
+
     @Path("/create")
     @POST
     public Response createBook(){

@@ -1,4 +1,4 @@
-package Server;
+package server;
 
 import controller.BookController;
 import org.glassfish.jersey.server.ResourceConfig;
