@@ -18,3 +18,5 @@ https://localhost:9443/oauth2/authorize?
    state=%2Fapis&
    redirect_uri=https://localhost:9443/devportal/services/auth/callback/login&
    prompt=none
+
+![image](https://github.com/ruwanliyanage123/siyapatha-publications/assets/30474275/e0d8469b-1a2f-4854-b138-90d1e1d933b0)
